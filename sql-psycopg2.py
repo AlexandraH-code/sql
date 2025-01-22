@@ -30,8 +30,8 @@ cursor = connection.cursor()
 # Query 8 - own query - select only the albums with "ArtistId" #78 on the "Album" table
 #cursor.execute('SELECT * FROM "Album" WHERE "ArtistId" = %s', [78])
 
-# Query 8 - own query - select all tracks where the composer is "Takida" from the "Track" table
-cursor.execute('SELECT * FROM "Artist" WHERE "Name" = %s', ["Takida"])
+# Query 8 - own query - select all from from the "Artist" table to get the column headers
+cursor.execute('SELECT * FROM "Artist" WHERE false')
 
 # fetch the results (multiple)
 results = cursor.fetchall()
