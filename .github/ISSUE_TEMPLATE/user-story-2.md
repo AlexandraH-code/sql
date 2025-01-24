@@ -9,9 +9,9 @@ assignees: ''
 In order to **received benefit** as a **role**, I can **goal/desire/capability**.
 
 # Acceptance Criteria:
-* Acceptance Criteria 1:
-* Acceptance Criteria 2:
-* Acceptance Criteria 3:
+* Acceptance Criteria 1
+* Acceptance Criteria 2
+* Acceptance Criteria 3
 
 # Tasks:
 [ ] Task 1 <br/>
